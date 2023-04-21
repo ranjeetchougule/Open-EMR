@@ -105,13 +105,6 @@ public class NewPatientRegisterPage {
 		confirm.click();
 		finalconfirm.click();
 	}
-	
-	public String getTitlePage() {
-		
-		String title = driver.getTitle();
-		
-		return title;
-	}
 }
 
 
