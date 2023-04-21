@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: parallel.RunOpenEMRTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.574 s <<< FAILURE! - in parallel.RunOpenEMRTest
+runScenario(parallel.RunOpenEMRTest)  Time elapsed: 28.913 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=112.0.5615.122)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4146812162657c3e753a9edaecefb587, clickElement {id=187da4d5-8e84-4296-991b-d0b9966c7fbc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.122, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56558/devtoo..., se:cdpVersion: 112.0.5615.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4146812162657c3e753a9edaecefb587)] -> xpath: //*[@id='submit']]
+Session ID: 4146812162657c3e753a9edaecefb587
+
