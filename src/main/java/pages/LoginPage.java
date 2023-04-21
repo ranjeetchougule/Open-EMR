@@ -68,11 +68,5 @@ public class LoginPage {
 		return value;
 		
 	}
-	public String getTitlePage() {
-		
-		String title = driver.getTitle();
-		
-		return title;
-	}
 
 }
